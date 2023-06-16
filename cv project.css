@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+.container{
+    background-color: rgb(252, 248, 244);
+    max-width: 1000px;
+    margin: 0 auto;
+
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(192, 173, 173);
+    border-radius: 50%;
+    float: left;
+
+}
+.header{
+
+}
+.header-bio{
+    float: left;
+    padding:30px;
+}
+h1,h2,h3,h4,h5,p{
+    color:teal;
+}
+.header-contact{
+    float: right;
+    padding: 30px;
+}
+.header-contact a:hover{
+    color:tomato;
+    text-decoration:underline;
+}
+.div-clear{
+    clear:both;
+}
+.personal-information{
+    padding: 30px;
+    
+}
+h3{
+    float: left;
+}
+.about-personal{
+    float: left;
+    margin-left: 80px;
+    color:black;
+;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.academic-background{
+    padding: 30px;
+    float:left;
+}
+.about-aca{
+    float: right;
+    margin-left:80px;
+    color:black;
+    padding-left: 20%;
+    
+
+}
+.work-experience{
+    padding: 30px;
+    float:left;
+}
+.about-work{
+    float: right;
+    margin-left:80px;
+    color:black;
+    padding-left: 20%;
+    
+
+}
+.footer{
+    height: 50px;
+    background-color: black;
+}
+.footer a{
+    margin-left: 100px;
+    align-items: center;
+}
+.footer p{
+    margin-left: 100px;
+    align-items: center;
+}
